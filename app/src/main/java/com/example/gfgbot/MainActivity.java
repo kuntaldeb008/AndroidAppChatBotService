@@ -82,9 +82,9 @@ public class MainActivity extends AppCompatActivity {
         //below line is to pass message to our array list which is entered by the user.
         messageModalArrayList.add(new MessageModal(userMsg, USER_KEY));
         messageRVAdapter.notifyDataSetChanged();
-        //url for our brain
+        //url for our brain4
         //make sure to add mshape for uid.
-        String url = "http://192.168.29.154:8080/getawslexbotresponse/" + userMsg;
+        String url = "http://192.168.29.154:8081/getawslexbotresponse/" + userMsg;
         //creating a variable for our request queue.
         RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
         //on below line we are making a json object request for a get request and passing our url .
