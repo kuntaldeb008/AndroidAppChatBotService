@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         messageRVAdapter.notifyDataSetChanged();
         //url for our brain4
         //make sure to add mshape for uid.
-        String url = "http://192.168.29.154:8081/getawslexbotresponse/" + userMsg;
+        String url = "http://54.144.14.5:8081/getawslexbotresponse/" + userMsg;
         //creating a variable for our request queue.
         RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
         //on below line we are making a json object request for a get request and passing our url .
